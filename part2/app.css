@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    background-color: green;
+  }
+  
+ 
+  
+  button:hover {
+    cursor: pointer;
+    background-color: rgb(248, 12, 12);
+  }
+  
+  button:active,
+  button:focus {
+    outline: none;
+  }
+  
+  #card-area {
+    margin-top: 80px;
+  }
+  
+  #card-area > img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  
